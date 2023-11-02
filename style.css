@@ -21,16 +21,18 @@ header > p{
 
 ul{
     display:flex;
-    padding-left:20vw;
+    margin-left:20vw;
     list-style: none;
 }
 
 .anos{
-    padding-right: 200px;
+    margin-right: 200px;
 }
 
 .anos:hover{
     background-color: rgb(66, 68, 66);
+    padding-right: 10px;
+    
     
 }
 
