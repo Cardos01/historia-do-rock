@@ -5,7 +5,7 @@
     margin: 0px;
 }
 body{
-    background-color: darkgray;
+  background-color: darkgray;
 }
 
 header{
@@ -15,31 +15,10 @@ header{
 
 }
 
-header > p{
-    margin-bottom: 20px;
-}
-
-ul{
-    display:flex;
-    margin-left:20vw;
-    list-style: none;
-}
-
-.anos{
-    margin-right: 200px;
-}
-
-.anos:hover{
-    background-color: rgb(66, 68, 66);
-    padding-right: 10px;
-    
-    
-}
-
 section{
-    background-color: white;
-    width: 65vw;
-    margin-left: 15vw;
+ background-color: white;
+ margin:0px 10vw;
+
 }
 
 footer{
