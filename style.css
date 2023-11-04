@@ -9,20 +9,34 @@ main{
   background-image: url(imagens/dia-mundial-do-rock-heading.png);
   background-size:cover;
   background-position: top right;
+  background-attachment: fixed;
 }
 
 header{
     background-color: black;
-    color: rgb(169, 187, 38);
+    color: rgb(222, 239, 90);
     text-align: center;
     padding-bottom: 2vh;
 
 }
 
-section{
- background-color: white;
- margin:0px 10vw;
+.titulo{
+    color:rgb(222, 239, 90);
+    margin-bottom: 10px;
+}
 
+.imagem{
+    margin:30px 10px 10px 50px;
+    border-radius: 30px;
+}
+
+.imagem:hover{
+}
+section{
+    background-color: black;
+     margin:0px 10vw;
+    font-size: 1.2em;
+    color: white;
 }
 
 footer{
