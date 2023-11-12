@@ -18,12 +18,14 @@ header{
     color: rgb(222, 239, 90);
     text-align: center;
     padding-bottom: 2vh;
+    font-size: 1.5vw;
 
 }
 
 .titulo{
     color:rgb(222, 239, 90);
     margin-bottom: 10px;
+    font-size: 2.5vw;
 }
 
 
