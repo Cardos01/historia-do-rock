@@ -3,6 +3,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 main{
   background-color: darkgray;
@@ -25,19 +26,37 @@ header{
     margin-bottom: 10px;
 }
 
+
 .imagem{
-    margin:30px 10px 10px 50px;
+    margin:30px 50px 10px 50px;
     border-radius: 30px;
 }
 
-.imagem:hover{
-}
+
+img:hover{
+    scale: 1.6px;
+    background-color: red;
+ } 
+
+
 section{
     background-color: black;
      margin:0px 10vw;
     font-size: 1.2em;
     color: white;
 }
+
+main > section > p{
+    font-size: 1.2em;
+    line-height: 1.4em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
 
 footer{
     background-color: black;
